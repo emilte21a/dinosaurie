@@ -21,9 +21,12 @@ h1 {
 
 header {
     height: 12rem;
+    position: fixed;
+    width: 100%;
 }
 
 .veckans {
+    padding: 7%;
     display: grid;
     place-content: center;
    align-items: center;
