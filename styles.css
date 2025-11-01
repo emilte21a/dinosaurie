@@ -1,9 +1,35 @@
-.smallImage{
+body {
+    background-image: url("background.jpg");
+}
+
+.smallImage {
     width: 10%;
 }
 
-.HeaderClass{
+.HeaderDiv {
+    background-image: url("menu.webp");
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1 {
+    color: green;
+    text-shadow: 1px 1px 1px 1px black;
+    font-size: 5rem;
+}
+
+header {
+    height: 12rem;
+}
+
+.veckans {
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    grid-template-rows: 1fr;
+    place-content: center;
+   align-items: center;
+}
+
+.bild {
+    background-color: white;
+    width: 40rem;
 }
