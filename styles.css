@@ -17,7 +17,7 @@ body {
 h1 {
     color: green;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    font-size: 5rem;
+    font-size: 300%;
 }
 
 header {
@@ -27,7 +27,6 @@ header {
 }
 
 .card {
-    padding: 10%;
     display: grid;
     place-content: center;
     align-items: center;
