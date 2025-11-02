@@ -1,5 +1,6 @@
 body {
     background-image: url("background.jpg");
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .smallImage {
@@ -21,18 +22,28 @@ h1 {
 
 header {
     height: 12rem;
-    position: fixed;
     width: 100%;
 }
 
-.veckans {
-    padding: 7%;
+.card {
+    padding: 10%;
     display: grid;
     place-content: center;
-   align-items: center;
+    align-items: center;
 }
 
 .bild {
+    width: auto;
+
+}
+
+
+.cardHolder {
+    padding: 10%;
+    padding-top: 100px;
     background-color: white;
-    width: 40rem;
+    margin: auto;
+    width: 30em;
+    height: 500%;
+    border-radius: 50px;
 }
