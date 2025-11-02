@@ -30,20 +30,21 @@ header {
     display: grid;
     place-content: center;
     align-items: center;
+    overflow: hidden;
+    padding: 10%;
 }
 
 .bild {
-    width: auto;
-
+    width: 50%;
 }
 
 
 .cardHolder {
-    padding: 10%;
+    padding: 0;
     padding-top: 100px;
     background-color: white;
     margin: auto;
-    width: 30em;
+    width: 90%;
     height: 500%;
     border-radius: 50px;
 }
